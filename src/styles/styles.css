@@ -141,7 +141,7 @@
   gap: 120px 40px;
 }
 
-.listing__event-card {
+.event__listing-card {
   max-width: 405px;
   width: calc(33.333%-40px);
 }
