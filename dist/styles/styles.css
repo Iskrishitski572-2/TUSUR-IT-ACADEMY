@@ -69,6 +69,11 @@ button {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
+h1 {
+  font-weight: 400;
+  font-size: 45px;
+  padding-top: 100px;
+}
 .btn {
   display: inline-block;
   -webkit-box-sizing: border-box;
@@ -93,28 +98,28 @@ button {
   color: #ffffff;
 }
 .section-title {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 100%;
-  min-width: 624px;
-  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-self: center;
+  text-align: center;
+  background-color: #1f1e1e;
+  color: #ffffff;
+  min-height: 62px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 62px;
-  margin: 0 auto 150px;
-  padding: 8px 45px;
-  background-color: #1f1e1e;
-  color: #ffffff;
-  font-family: "Lora", serif;
-  font-weight: 500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 624px;
+  margin: 0 auto;
+  font-family: Lora;
   font-size: 36px;
-  line-height: 1.277;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   text-transform: uppercase;
+  margin-bottom: 150px;
 }
 .event-card {
   display: -webkit-box;
@@ -221,6 +226,21 @@ button {
 .events__listing {
   margin-bottom: 100px;
 }
+.main-header {
+  color: var(--1, #1f1e1e);
+  text-align: center;
+  font-family: Lora;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main-header__text {
+  max-width: 990px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
 .page-header {
   position: fixed;
   top: 0;
@@ -228,6 +248,7 @@ button {
   width: 100%;
   height: 147px;
   z-index: 100;
+  text-align: center;
 }
 .page-header::before {
   content: "";
